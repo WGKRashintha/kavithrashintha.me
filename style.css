@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar*/
+.navbar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: #34495e;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    height: 99%;
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.25rem;
+}
+.links-wrap{
+    width: inherit;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links li{
+    margin: -0.25rem 1.6rem 0 1.6rem;
+    list-style: none;
+}
+.links li:last-child{
+    margin-right: 5rem;
+}
+.links li a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.05rem;
+    color: #ffff;
+}
+.links li a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+/* Navigation Bar*/
+
+/* Home */
+.home{
+    width: 100%;
+    height: 37rem;
+    display: flex;
+    padding-top: 5rem;
+}
+.profile-img{
+    height: 100%;
+    width: 37%;
+}
+.profile-img-wrap{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 7.5rem;
+}
+.intro{
+    height: 100%;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem; 
+}
+.intro h1{
+    margin-top:8rem;
+    font-size: 4.6em;
+    font-family: 'Rubik', sans-serif;
+    color: #487eb0;
+}
+.intro-desc{
+    width: 47rem;
+    line-height: 2;
+}
+.intro p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+/* Home */
+
+/* About */
+.about{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    padding-top: 4rem;
+}
+.about-wrap{
+    width: 65%;
+    height: 100%;
+}
+.about-header{
+    width: 13.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1.5rem 0 0 7rem;
+    /* background: linear-gradient(
+        to right bottom,
+        #5689C0 , #A1E1FA   
+    ); */
+    background-color: #44bd32;
+    opacity: 0.9;
+}
+.about-header h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    color: #ffff;
+}
+.about-desc{
+    margin:3rem 0 0 7rem;
+    width: 45rem;
+}
+.about-desc p{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+.about-img{
+    width: 35%;
+    height: 100%;
+}
+.about-img img{
+    margin: 0 0 0 1.5rem;
+}
+/* About */
+
+/* Skills */
+.skills{
+    width: 100%;
+    height: 40rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.skills-header{
+    width: 13.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1.5rem 0 0 7rem;
+    /* background: linear-gradient(
+        to right bottom,
+        #5689C0 , #A1E1FA  
+    ); */
+    background-color: #8c7ae6;
+    opacity: 0.9;
+    margin-bottom: 4rem;
+}
+.skills-header h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    color: #ffff;
+}
+.skill-wrap{
+    display: flex;
+}
+.skill-img{
+    width: 37%;
+    margin: 2rem 0 0 4rem;
+}
+.skills-data{
+    width: 60%;
+    height: 30rem;
+}
+.skill-r{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.skill-desc p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/* Skills */
+
+/* Contact */
+.contact{
+    width: 100%;
+    height: 30rem;
+    padding-top: 3rem;
+}
+.contact-header{
+    width: 13.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1.5rem 0 0 7rem;
+    /* background: linear-gradient(
+        to right bottom,
+        #5689C0 , #A1E1FA  
+    ); */
+    background-color: #f39c12;
+    opacity: 0.9;
+    margin-bottom: 4rem;
+}
+.contact-header h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    color: #ffff;
+}
+.contact-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.contact-desc{
+    width: 45rem;
+    margin:0 0 0 7rem;
+}
+.contact-desc p{
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 3rem;
+}
+.contact-desc ul li{
+    margin-top: 1.5rem;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.contact-desc ul li a{
+    text-decoration: none;
+}
+.contact-img{
+    width: 40%;
+    margin: -3rem 0 0 5rem;
+}
+/* Contact */
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #34495e;
+    margin-top: 2.5rem;
+}
+.footer-desc p{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.policies a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+/* Footer */
